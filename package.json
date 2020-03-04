@@ -38,6 +38,7 @@
 	"license": "MIT",
 	"dependencies": {},
 	"devDependencies": {
+		"@types/node": "latest",
 		"@typescript-eslint/eslint-plugin": "latest",
 		"@typescript-eslint/parser": "latest",
 		"chai": "latest",

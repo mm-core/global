@@ -1,7 +1,7 @@
 [
 	{
-		"name": "@mmstudio/base",
-		"location": "@mmstudio/base",
+		"name": "@mmstudio/global",
+		"location": "@mmstudio/global",
 		"main": "main"
 	}
 ]

@@ -1,9 +1,9 @@
 import { expect } from 'chai';
 import t from './';
 
-describe('xxx', () => {
-	it('xxx', async () => {
-		t();
-		expect(1).not.eq(2);
+describe('global', () => {
+	it('get default value', () => {
+		const v = t('foo', 'bar');
+		expect(v).eq('bar');
 	});
 });
