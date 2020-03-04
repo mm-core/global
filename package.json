@@ -1,6 +1,6 @@
 {
 	"name": "@mmstudio/base",
-	"version": "1.0.0",
+	"version": "1.0.202003041319",
 	"description": "$desc",
 	"scripts": {
 		"test": "npm run build && karma start --single-run",
