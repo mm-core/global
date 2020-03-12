@@ -1,6 +1,6 @@
 {
 	"name": "@mmstudio/global",
-	"version": "1.0.202003051131",
+	"version": "1.0.202003120936",
 	"description": "global property",
 	"scripts": {
 		"test": "npm run build && karma start --single-run",
