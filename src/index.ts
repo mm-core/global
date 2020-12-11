@@ -18,3 +18,8 @@ export default function get<T>(name: string, default_val?: T) {
 	}
 	return globalObject[name] as T;
 }
+
+export function set<T>(name: string, val: T) {
+	const globalObject = get_global_obj() as unknown as { [key: string]: unknown };
+	globalObject[name] = val;
+}
